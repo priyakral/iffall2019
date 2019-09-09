@@ -1,0 +1,30 @@
+header{
+	font-family: arial;
+	color: #F2D7D5;
+}
+section {
+	margin: 60px 0;
+	padding-left: 30px;
+}
+p {
+	margin: 10px 0;
+}
+h2{
+	color: red;
+	font-stretch: ultra-condensed;
+}
+strong{
+	color: red;
+}
+em{
+	color: #F2D7D5;
+}
+body{
+	color: gray;
+}
+h1{
+	font-size: xx-large;
+}
+html{
+	background-color: #641E16;
+}
