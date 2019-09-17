@@ -1,0 +1,67 @@
+h1 {
+	margin: 70px 0 0 0;
+	color: IndianRed;
+	font-size: 60px;
+	text-align: left;
+	font-family: 'Playfair Display', serif;
+	text-transform: lowercase;
+	font-weight: black;
+	padding-left: 100px;
+}
+#disappearheader {
+	text-decoration: line-through;
+
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: medium;
+	padding-left: 100px;
+	margin: 20px 0 150px 0;
+	font-style: italic;
+	font-weight: bold;
+}
+div {
+	margin: 7px 0;
+}
+body {
+	background-image:url("Lana-Del-Rey.jpg");
+	background-size: cover;
+	background-position: -180px;
+	background-repeat: no-repeat;
+	color: #461010;
+	font-family: 'Playfair Display', serif;
+
+}
+.chorus {
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+.outro {
+	font-style: italic;
+	letter-spacing: .25em;
+}
+
+
+section {
+	margin: 0px 0 80px 0;
+	padding-left: 325px;
+}
+p {
+	margin: 15px 0;
+}
+html {
+	margin-top: 70px 0;
+	margin-bottom: 60px 0;
+}
+footer {
+	font-size: small;
+	color: IndianRed;
+	padding-left: 100px;
+	margin: 0 0 90px 0;
+}
+footer p {
+	margin: 5px 0 0 0;
+	font-family: 'Playfair Display', serif;
+}
