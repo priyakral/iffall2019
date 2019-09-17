@@ -1,0 +1,94 @@
+body {
+	font-family: "Crimson Text", serif;
+	font-size: 16px;
+	padding-left: 70px;
+}
+header {
+	font-size: 20px;
+	margin-top: 0px;
+}
+h1 {
+	font-size: 60px;
+	margin-bottom: 10px;
+
+}
+footer {
+	font-size: 10px;
+	font-family: Helvetica, sans-serif;
+	margin-top: 40px;
+}
+div {
+	margin-top: 5px;
+}
+
+
+.fontweightheader {
+	font-weight: bold;
+	font-size: 25px;
+	color: gray;
+	font-family: Helvetica, sans-serif;
+	margin-bottom: 15px;
+	margin-top: 60px;
+}
+.fontweightsubheader {
+	font-weight: 600;
+	font-size: 13px;
+	color: silver;
+	font-family: Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+p {
+	margin-top: 0px;
+}
+#fontweightnormal {
+	font-weight: normal;
+}
+#fontweightsemibold {
+	font-weight: 600;
+}
+#fontweightsemibold {
+	font-weight: 600;
+}
+#fontweightbold {
+	font-weight: bold;
+}
+#fontstylenormal{
+	font-style: normal
+}
+#fontstyleitalic {
+	font-style: italic;
+}
+#letterspacingnormal {
+	letter-spacing: normal;
+}
+#letterspacinglinetwo {
+	letter-spacing: .3em;
+}
+#letterspacinglinethree {
+	letter-spacing: -.06em
+}
+#textdecorationnone {
+	text-decoration: none;
+}
+#textdecorationunderline {
+	text-decoration: underline;
+}
+#textdecorationlinethrough {
+	text-decoration: line-through;
+}
+#textdecorationoverline {
+	text-decoration: overline;
+}
+#texttransformnone {
+	text-transform: none;
+}
+#texttransformuppercase {
+	text-transform: uppercase;
+}
+#texttransformlowercase {
+	text-transform: lowercase;
+}
+#texttransformcapitalize {
+	text-transform: capitalize;
+}
