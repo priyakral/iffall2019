@@ -1,0 +1,75 @@
+header {
+	margin-bottom: 3rem;
+}
+p {
+	line-height: 1.6;
+}
+.see-all {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+ul li h1 {
+	font-size: 2.5rem;
+}
+ul section h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+h1, h2 {
+	font-weight: lighter;
+}
+
+
+img {
+	width:100%;
+}
+
+.cast {
+	width:25%;
+}
+/*what makes up a cast member? image, actor name, character name. think about those
+groups of things. each cast member is that list item. .cast is whole section and
+there is a bunch of list items. section.cast (target just section) (space)li [any li
+a descendent w a class name of cast]. setting the list item itself to 25%.
+think about structure and way elements are grouped together.*/
+.shows h1{
+	text-decoration: overline;
+	stroke-linecap: 1px;
+}
+
+
+
+
+header nav li.selected a {
+
+	font-weight: bold;
+	color: black;
+}
+section.cast div
+{
+	font-size: .8rem;
+}
+section.cast div:first-of-type {
+	font-weight: bold;
+}
+section.cast div:nth-of-type(2) {
+	font-style: italic;
+}
+
+#game-of-thrones .seasons li:last-of-type:after {
+	content:"*";
+}
+#game-of-thrones .seasons:after {
+	content:"*Final Season";
+	font-size: .7rem;
+	color: #999;
+}
+p:before {
+	content: "*";
+	color: red;
+	font-weight: bold;
+}
+/*going to intsert whatever is in here before paragraph content. can also use p:after.
+means it will put it before the other content in paragraph, not above paragraph.*/
+/*+ is children directly adjacent to one another, a comma is an "and", and space
+bar is a descendent of something*/
