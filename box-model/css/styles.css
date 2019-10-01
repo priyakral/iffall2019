@@ -1,0 +1,65 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+	margin: 0 0 0 0;
+	font-size: 80px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0;
+	color: white;
+}
+
+h3 {
+	margin: 0 0 33px 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+header {
+	background-color: rgba(255,0,0,.5);
+	text-align: center;
+	padding: 150px 0 182px 0;
+	background-image: url('../images/viceroy-butterfly_1600.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+section.section_one {
+	/*background-color: rgba(0,0,255,.5);*/
+}
+
+.section_one img {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+/*selecting for any img in section one. specifying image.*/
+section > div {
+	width: 960px;
+	/*background-color: rgba(0,255,255,.5);*/
+	margin: auto;
+	padding: 38px 0 0 0;
+}
+
+section.section_one p {
+	line-height: 1.4;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -.4px;
+}
+/*div is for the center column width. this one selects for a div that is immediately inside a section.*/
+/*margin on auto makes margin automatically equal on left and right sides*/
+
+/*padding goes north east south west*/
+/*../ means go up a level*/
+/*options for background size are cover and contain*/
+/*url, background size, background repeat are 3 things to consider*/
+
+/*margins around paragraph, set height of seciton, fix line height and font size. all css rules at this point*/
