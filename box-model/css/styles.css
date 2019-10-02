@@ -32,7 +32,7 @@ header {
 
 
 section.section_one {
-	/*background-color: rgba(0,0,255,.5);*/
+	background-color: rgba(0,0,255,1);
 }
 
 .section_one img {
@@ -43,11 +43,12 @@ section.section_one {
 /*selecting for any img in section one. specifying image.*/
 section > div {
 	width: 960px;
-	/*background-color: rgba(0,255,255,.5);*/
+	/*background-color: rgba(0,255,255,.3);*/
 	margin: auto;
-	padding: 38px 0 0 0;
+	padding: 38px 0 37px 0;
 }
-
+/*this is the foundation for the ENTIRE page.*/
+/*this is true for every section, which is why we are getting consistent column width.*/
 section.section_one p {
 	line-height: 1.4;
 	font-size: 18px;
@@ -63,3 +64,71 @@ section.section_one p {
 /*url, background size, background repeat are 3 things to consider*/
 
 /*margins around paragraph, set height of seciton, fix line height and font size. all css rules at this point*/
+li img {
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-right: 12px;
+
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	width: 50%;
+	height: 175px;
+	/*background-color: rgba(255, 0, 255, .3);*/
+	padding-right: 34px;
+	box-sizing: border-box;
+	font-size: 18px;
+	display: inline-block;
+	/*this means that it changes block level elemets to not take up the FULL horizontal window. an anchor tag is an inline element, bc it goes in
+	a paragraph. on an inline element you cant set width/padding. a paragraph is a block level element, but text that wraps inside a paragraph
+	is an inline element.*/
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.4;
+	margin: 0;
+	margin-bottom: 6px;
+}
+
+li p {
+	margin: 0;
+
+}
+
+section.section_two {
+	background-color: green;
+}
+
+section.section_three p {
+	margin: auto;
+	font-size: 25px;
+	width: 75%;
+	text-align: center;
+	line-height: 1.4;
+	font-weight: normal;
+	letter-spacing: .3px;
+}
+
+section.section_three {
+	padding-bottom: 63px;
+	background-color: yellow;
+}
+
+footer {
+	margin: auto;
+	width: 960px;
+	margin-top: 40px;
+	font-size: 18px;
+	background-color: white;
+}
+
+
+
