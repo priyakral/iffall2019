@@ -1,0 +1,40 @@
+section {
+	position: relative;
+}
+
+.aside1 {
+float: right;
+}
+
+.aside2 {
+float: right;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.aside3 {
+position: fixed;
+background-color: green;
+z-index: 100;
+top: 0;
+right: 0;
+}
+.aside4 {
+	position: absolute;
+	background-color: red;
+	right: 350px;
+	top: 50;
+	z-index: 10;
+
+
+}
+.aside5 { 
+	position: relative;
+	background-color: black;
+	top: 10px;
+	left: 300px;
+	/*right: 350px;*/
+
+
+}
+/*make this a child of aside4?*/
