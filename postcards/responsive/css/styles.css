@@ -1,0 +1,90 @@
+/*a {position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;}
+*/
+
+a {position: absolute;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+
+
+.textbox1 {
+	/*margin-left: 100px;*/
+				margin: auto;
+				position: relative; 
+				/*position: absolute*/
+				z-index: 100;
+				color: white;
+				font-size: 2rem;
+				text-align: center;
+				line-height: 90%;}
+
+		@media ( min-width: 400px) {
+
+		body {
+		padding: 1em;}
+
+		.textbox1 {
+		right: 1em;
+		bottom: 10%;
+		max-width: 30%;
+		font-size: 1.5em;}
+		}
+
+
+		@media ( min-width: 600px) {
+		
+		body {
+		padding: 2em;}
+
+		.textbox1 {
+		right: 2em;
+		bottom: 10%;
+		max-width: 30%;
+		font-size: 3em;
+		}
+		}
+
+		@media (min-width: 1200px) {
+		.textbox1 {
+		max-width: 100%;
+		font-size: 4em;
+		text-align: center;
+		}
+		}
+		
+/*styling for the background image in the body*/
+#bodycard1 {
+	font-family: 'Lobster Two', cursive;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	display: block;
+	position: relative;
+	background-image: url('../images/card1image.jpg');
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+}
+
+
+#bodycard2 {
+	font-family: 'Lobster Two', cursive;
+}
+
+#bodycard3 {
+	font-family: 'Lobster Two', cursive;
+}
